@@ -1,0 +1,10 @@
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Rokkit\Rokkit\Rokkit\bin\x86\Debug\Rokkit.exe
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Rokkit\Rokkit\Rokkit\bin\x86\Debug\Rokkit.pdb
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Rokkit\Rokkit\Rokkit\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Rokkit\Rokkit\Rokkit\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Rokkit\Rokkit\Rokkit\obj\x86\Debug\Rokkit.exe
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Rokkit\Rokkit\Rokkit\obj\x86\Debug\Rokkit.pdb
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Rokkit\Rokkit\Rokkit\bin\x86\Debug\Content\Sprites\Projectiles\blrocket.xnb
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Rokkit\Rokkit\Rokkit\bin\x86\Debug\Content\Sprites\Projectiles\ojrocket.xnb
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Rokkit\Rokkit\Rokkit\bin\x86\Debug\FarseerPhysicsXNA.dll
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Rokkit\Rokkit\Rokkit\bin\x86\Debug\FarseerPhysicsXNA.pdb
