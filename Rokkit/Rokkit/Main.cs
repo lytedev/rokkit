@@ -17,16 +17,21 @@ using FarseerPhysics.Controllers;
 
 namespace Rokkit
 {
+
     /// <summary>
     /// Main Game class.
     /// </summary>
     public class Main : Microsoft.Xna.Framework.Game
     {
+        const int SCREEN_WIDTH = 848;
+        const int SCREEN_HEIGHT = 480;
+
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
         Sprite BlueRocket;
         Sprite OrangeRocket;
+        Sprite Block1;
 
         static public World World;
 
@@ -69,11 +74,18 @@ namespace Rokkit
 
             BlueRocket = new Sprite(Content.Load<Texture2D>("Sprites/Projectiles/blrocket"), 16, 16, 0, 0, 0);
             OrangeRocket = new Sprite(Content.Load<Texture2D>("Sprites/Projectiles/ojrocket"), 16, 16, 0, 0, 0);
+            Block1 = new Sprite(Content.Load<Texture2D>("Sprites/Map/block1"), 16, 16, 0, 0, 0);
 
             Entities.Clear();
             Entities.Add(new Entity(BlueRocket, new Vector2(400, 16), Vector2.Zero, EntityFlags.CanFall | EntityFlags.CanMove | EntityFlags.CanCollide)); 
-            Entities.Add(new Entity(OrangeRocket, new Vector2(402, 128), Vector2.Zero, EntityFlags.CanCollide));
-            Entities[1].Velocity = new Vector2(1, -200.8f);
+            Entities.Add(new Entity(OrangeRocket, new Vector2(410, 128), Vector2.Zero, EntityFlags.CanCollide));
+
+            for (int i = 0; i < (SCREEN_WIDTH / 16); i++)
+            {
+                Entity e = new Entity(Block1, new Vector2(i * 16, SCREEN_HEIGHT - 16), Vector2.Zero, EntityFlags.CanCollide);
+                e.Body.IsStatic = true;
+                Entities.Add(e);
+            }
         }
 
         /// <summary>

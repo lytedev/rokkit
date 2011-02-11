@@ -8,3 +8,4 @@ C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Rokkit\Rokkit\Rokkit\bin\x
 C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Rokkit\Rokkit\Rokkit\bin\x86\Debug\Content\Sprites\Projectiles\ojrocket.xnb
 C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Rokkit\Rokkit\Rokkit\bin\x86\Debug\FarseerPhysicsXNA.dll
 C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Rokkit\Rokkit\Rokkit\bin\x86\Debug\FarseerPhysicsXNA.pdb
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Rokkit\Rokkit\Rokkit\bin\x86\Debug\Content\Sprites\Map\block1.xnb

@@ -19,6 +19,15 @@
       <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Rokkit\Rokkit\Rokkit\bin\x86\Debug\Content\Sprites\Projectiles\ojrocket.xnb</Output>
       <Time>2011-02-05T16:47:09.9032247-06:00</Time>
     </Item>
+    <Item>
+      <Source>Sprites\Map\block1.png</Source>
+      <Name>Sprites\Map\block1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Rokkit\Rokkit\Rokkit\bin\x86\Debug\Content\Sprites\Map\block1.xnb</Output>
+      <Time>2011-02-10T19:10:03.9432817-06:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>

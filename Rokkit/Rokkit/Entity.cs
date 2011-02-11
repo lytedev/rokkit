@@ -174,25 +174,23 @@ namespace Rokkit
             float width = (Size.X / 2);
             float height = (Size.Y / 2);
 
-            PolygonShape ps = new PolygonShape(new Vertices(new Vector2[4] {
+            /*PolygonShape ps = new PolygonShape(new Vertices(new Vector2[4] {
                 new Vector2(-width, -height),
                 new Vector2(width, -height),
                 new Vector2(width, height),
                 new Vector2(-width, height)
             }), 1);
 
-            Body.CreateFixture(ps);
+            Body.CreateFixture(ps);*/
             
-            /*Texture2D polygonTexture = Sprite.Texture;
+            Texture2D polygonTexture = Sprite.Texture;
             uint[] data = new uint[polygonTexture.Width * polygonTexture.Height];
             polygonTexture.GetData(data);
             Vertices verts = PolygonTools.CreatePolygon(data, polygonTexture.Width, polygonTexture.Height, true);
             Vector2 scale = new Vector2(1, 1);
             verts.Scale(ref scale);
             List<Vertices> v = FarseerPhysics.Common.Decomposition.BayazitDecomposer.ConvexPartition(verts);
-            List<Fixture> compound = FixtureFactory.CreateCompoundPolygon(Main.World, v, 1);*/
-            
-            // Body.FixtureList.AddRange(compound);
+            List<Fixture> compound = FixtureFactory.CreateCompoundPolygon(v, 1, Body);
 
             foreach (Fixture f in Body.FixtureList)
             {
